@@ -48,7 +48,7 @@ define([
     SinaNews.prototype.getNews = function() {
         let _this = this;
         $.ajax({
-            url: 'http://platform.sina.com.cn/slide/album_tech', //这里使用了新浪新闻的 jsonp 接口，大家可以直接看数据， 如： http://platform.sina.com.cn/slide/album_tech?jsoncallback=func&app_key=1271687855&num=3&page=4
+            url: 'https://platform.sina.com.cn/slide/album_tech', //这里使用了新浪新闻的 jsonp 接口，大家可以直接看数据， 如： http://platform.sina.com.cn/slide/album_tech?jsoncallback=func&app_key=1271687855&num=3&page=4
             dataType: 'jsonp',
             jsonp: "jsoncallback",
             data: {
